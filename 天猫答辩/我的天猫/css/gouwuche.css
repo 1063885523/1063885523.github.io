@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+/*inner-top*/
+.inner-top .top .left,.inner-top .top .main,inner-top .top .right{
+    float: left;
+}
+.inner-top .top{
+    border-bottom: 1px #dddddd solid;
+}
+.inner-top .top .left a{
+    color: #888888;
+    line-height: 40px;
+}
+.inner-top .top .left a i{
+    padding: 0 5px;
+}
+.inner-top .top .main{
+    line-height: 40px;
+    width: 60%;
+}
+.inner-top .top .main input{
+    width: 70%;
+    border: none;
+    outline: none;
+}
+.inner-top .top .main i{
+    color: #d0d0d0;
+    padding-left: 20px;
+}
+.inner-top .top .right{
+    font-size: 14px;
+    text-align: center;
+}
+.inner-top .top .right a{
+    color: #e6283f;
+}
+.inner-top .top .right p{
+    font-size: 10px;
+}
+.inner-top>.main{
+    border-bottom: 1px #dddddd solid;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.inner-top>.main i.fa-map-marker{
+    font-size: 16px;
+    padding: 0 15px;
+    color: #c7c7c7;
+}
+.inner-top>.bottom{
+    border-top: 1px #dddddd solid;
+    height: 60px;
+    padding-bottom: 5px;
+}
+.inner-top>.bottom .inp1,.inner-top>.bottom .txt,.inner-top>.bottom button{
+    float: left;
+}
+.inner-top>.bottom .inp1{
+    margin: 20px 10px;
+}
+.inner-top>.bottom .txt{
+    padding-top: 10px;
+}
+.inner-top>.bottom .txt p{
+    font-size: 12px;
+}
+.inner-top>.bottom button{
+    margin-top: 20px;
+    float: right;
+    margin-right: 5px;
+    background-color: white;
+    color: #ff0036;
+    border: 1px #ff0036 solid;
+    border-radius: 4px;
+    padding: 4px;
+    outline: none;
+}
+/*inner-main*/
+.inner-main{
+    box-shadow: 0 0px 7px #bbb;
+}
+.inner-main>.main li{
+    position: relative;
+    width: 100%;
+    border-top: 1px #dddddd solid;
+    padding: 20px 0;
+}
+.inner-main>.main li input,.inner-main>.main li img,.inner-main>.main li .txt,.inner-main>.main li .text{
+    float: left;
+}
+.inner-main>.main li input{
+    margin: 20px 10px;
+}
+.inner-main>.main li img{
+    width: 20%;
+}
+.inner-main>.main li .txt{
+    padding: 0 10px;
+    width: 45%;
+    font-size: 12px;
+}
+.inner-main>.main li .txt button{
+    width: 20px;
+    height: 20px;
+}
+.inner-main>.main li .txt p{
+    line-height: 20px;
+    font-weight: 600;
+}
+.shuliang{
+    position: absolute;
+    bottom: 20px;
+}
+.shuliang p{
+    padding:0 7px;
+    margin: 0 5px;
+    border: 1px #dddddd solid;
+}
+.shuliang .btn2,.shuliang p,.shuliang .btn3{
+    float: left;
+    outline: none;
+}
+.btn2{
+    color: #dddddd;
+    background-color: #fff;
+    border: 1px #dddddd solid;
+}
+.btn3{
+    background-color: #efeff4;
+    border: 1px #dddddd solid;
+}
+.inner-main>.main li .text{
+    width: 14%;
+    font-size: 14px;
+    color: #999999;
+    text-align: right;
+}
+.inner-main>.main li .text p{
+    line-height: 20px;
+}
+.inner-main>.main li .text p:nth-child(2){
+    color: black;
+    font-weight: 600;
+}
+input[type="checkbox"] {
+  -webkit-appearance: none;  /*清除复选框默认样式*/
+  background: #fff url(../img/images/%E6%9C%AA%E6%A0%87%E9%A2%98-1_03.png);   /*复选框的背景图，就是上图*/
+  background-repeat: no-repeat;
+  height: 22px;   /*高度*/
+  vertical-align: middle;
+  border-radius: 50%;
+  border: none;
+  width: 22px;
+  background-position: -50px 0;
+  outline: none;
+}
+input[type="checkbox"]:checked {
+    background-position: 0;
+}
+/*inner-bottom*/
+.inner-bottom{
+    position: fixed;
+    width: 91%;
+    z-index: 4;
+    background-color: #eeeef3;
+    color: #666666;
+    font-size: 12px;
+    height: 30px;
+    padding: 10px 0px;
+    padding-left: 30px;
+    bottom: 63px;
+}
+.inner-bottom .left,.inner-bottom .right{
+    float: left;
+}
+.inner-bottom .right{
+    float: right;
+    padding-right: 20px;
+}
+.inner-bottom .right button{
+    padding: 2px 5px;
+    font-size: 10px;
+    background-color: #ff0036;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+}
+/*猜你喜欢*/
+.cainixihuan h4{
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.cainixihuan>h4>span{
+    color: #11bb55;
+}
+.cainixihuan h4>span:nth-child(1){
+    font-weight: 100;
+    font-size: 10px;
+}
+.cainixihuan h5{
+    margin: 0;
+    padding-left: 5px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    font-weight: 600;
+}
+.cainixihuan p{
+    margin: 0;
+    font-size: 10px;
+    padding-left: 5px;
+}
+.yuexiao{
+    color: #9b9b9b;
+}
+.guige{
+    color: #746a66;
+}
+.cainixihuan{
+    border-radius: 5px;
+    background-color: #fff;
+    width: 95%;
+    margin: 2% auto;
+    padding: 8px;
+}
+.cainixihuan img{
+    width: 100%;
+}
+.cainixihuan .clearfix>li{
+    float: left;
+    width: 32%;
+    height: 200px;
+    position: relative;
+    border: 1px solid #f8f8f8;
+}
+.cainixihuan i{
+    margin-right: 4px;
+    float: right;
+    margin-top: -30px;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+}
+.fenlei{
+    padding-top: 10%;
+}
+.fenlei li{
+    border: #a68f7c 1px solid;
+    border-radius: 5px;
+    width: 80%;
+    line-height: 35px;
+    text-align: center;
+    color: #a68f7c;
+    margin: 5px auto;
+}
+#chang>img{
+    height: 100%;
+}
+i.fa-shopping-cart{
+    position: absolute;
+    z-index: 3;
+    right: 0px;
+}
+/*底部导航*/
+.nav-bottom{
+    color: #000;
+    position: fixed;
+    bottom: 0px;
+    z-index: 3;
+    width: 100%;
+    background-color: white;
+    border-top: 1px #f8f8f8 solid;
+    padding-top: 10px;
+}
+.nav-bottom li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-bottom li{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.nav-bottom li p{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.nav-bottom li i{
+    font-size: 25px;
+    padding-bottom: 6px;
+}
+.gao{
+    height: 50px;
+    width: 100%;
+}
+@media (max-width: 410px) {
+    .fenlei li{
+        line-height: 30px;
+    }
+}
+@media (max-width: 350px){
+    .cainixihuan .clearfix>li{
+        height: 170px;
+    }
+    .cainixihuan i{
+        margin-top: -35px;
+    }
+    .fenlei li{
+        line-height: 29px;
+    }
+}

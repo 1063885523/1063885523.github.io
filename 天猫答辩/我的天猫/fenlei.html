@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分类导航</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fenlei.css">
+</head>
+<body>
+    <div class="inner">
+        <div class="inner-top">
+            <p>全部分类</p>
+        </div>
+        <div class="benlei">
+            <div>热门推荐</div>
+        </div>
+        <div class="inner-bottom">
+            <div class="main clearfix">
+                <div class="left">
+                    <ul class="quanbu">
+                        <li>热门推荐</li>
+                        <li>水果生鲜</li>
+                        <li>进口食品</li>
+                        <li>休闲零食</li>
+                        <li>酒水乳饮</li>
+                        <li>粮油副食</li>
+                        <li>美妆个护</li>
+                        <li>家居用品</li>
+                        <li>家庭清洁</li>
+                        <li>母婴玩具</li>
+                        <li>家用电器</li>
+                        <li>保健品</li>
+                        <li>厨房用品</li>
+                        <li><div class="gao"></div></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul class="suoyou">
+                        <li class="yin xian">
+                            <ul class="remen">
+                                <li class="clearfix">
+                                    <h5>热门推荐类目</h5>
+                                    <div v-for="tu in tuku0">
+                                        <img :src="tu.img" alt="">
+                                        <p>{{tu.name}}</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="gao"></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="yin">
+                            <ul class="shengxian">
+                                <li class="clearfix">
+                                    <h5>时令水果</h5>
+                                    <div v-for="tu in tuku1">
+                                        <img :src="tu.img" alt="">
+                                        <p>{{tu.name}}</p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <h5>猪牛羊肉</h5>
+                                    <div v-for="tu in tuku2">
+                                        <img :src="tu.img" alt="">
+                                        <p>{{tu.name}}</p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <h5>海鲜水产</h5>
+                                    <div v-for="tu in tuku3">
+                                        <img :src="tu.img" alt="">
+                                        <p>{{tu.name}}</p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <h5>家禽蛋类</h5>
+                                    <div v-for="tu in tuku4">
+                                        <img :src="tu.img" alt="">
+                                        <p>{{tu.name}}</p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <h5>新鲜蔬菜</h5>
+                                    <div v-for="tu in tuku5">
+                                        <img :src="tu.img" alt="">
+                                        <p>{{tu.name}}</p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <h5>速食乳饮</h5>
+                                    <div v-for="tu in tuku6">
+                                        <img :src="tu.img" alt="">
+                                        <p>{{tu.name}}</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="gao"></div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-bottom">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fa fa-home"></i>
+                    <p>首页</p>
+                </a>
+            </li>
+            <li>
+                <i class="fa fa-buysellads"></i>
+                <p>翻牌</p>
+            </li>
+            <li>
+                <i class="fa fa-github-alt"></i>
+                <p>品牌特惠</p>
+            </li>
+            <li>
+                <i class="fa fa-list-ul"></i>
+                <p>分类</p>
+            </li>
+            <li>
+                <a href="denglu.html">
+                    <i class="fa fa-user-o"></i>
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/feilei.js"></script>
+</body>
+</html>

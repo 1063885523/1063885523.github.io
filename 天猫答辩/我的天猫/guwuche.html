@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/gouwuche.css">
+</head>
+<body>
+    <div class="inner-top">
+        <div class="top clearfix">
+            <div class="left">
+                <a href="index.html"><i class="fa fa-home"></i>天猫超市</a>
+            </div>
+            <div class="main">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="搜索天猫超市">
+            </div>
+            <div class="right">
+                <a href="fenlei.html">
+                    <i class="fa fa-list-ul"></i>
+                    <p>分类</p>
+                </a>
+            </div>
+        </div>
+        <div class="main">
+            <p><i class="fa fa-map-marker"></i>当前城市：<span>沧州</span></p>
+        </div>
+        <div class="bottom clearfix">
+            <input class="inp1" checked type="checkbox" onclick="fun()">
+            <div class="txt">
+                <h4>天猫超市</h4>
+                <p>差<span>88</span>元享满88.00元（20kg以内）包邮</p>
+            </div>
+            <button>去凑单</button>
+        </div>
+    </div>
+    <div class="inner-main">
+        <ul class="main">
+<!--
+            <li class="clearfix">
+                <input type="checkbox" class="zi">
+                <img src="img/TB10hqXhkOWBuNjSsppSutPgpXa.jpg_170x120Q90s50.jpg_.webp" alt="">
+                <div class="txt">
+                    <p>馨牌毛巾 英国格加厚纯棉面巾1条 强力吸水洗脸毛巾</p>
+                    <div class="shuliang">
+                        <button class="btn2">-</button>
+                        <p>1</p>
+                        <button class="btn3">+</button>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>数量<span>x1</span></p>
+                    <p>￥8.90</p>
+                    <p><i class="fa fa-trash-o"></i></p>
+                </div>
+            </li>
+-->
+        </ul>
+    </div>
+    <div class="inner-bottom clearfix">
+        <div class="left">
+            <p>总重量：<span>0.766kg</span></p>
+            <p>总价：<span>￥25.73</span></p>
+        </div>
+        <div class="right">
+            <button>结算（<span>3</span>）</button>
+        </div>
+    </div>
+    <div class="inner">
+        <div class="cainixihuan">
+            <h4>猜你喜欢<span>EXPLORE</span></h4>
+            <ul class="clearfix">
+                <li id="chang">
+                    <img src="img/TB15pU7yntYBeNjy1XdXXXXyVXa-372-568.jpg_430x430Q90s50.jpg_.webp" alt="">
+                </li>
+                <li>
+                    <img src="img/TB24Zs.sNSYBuNjSsphXXbGvVXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>汰渍洗衣液12斤</h5>
+                    <p class="guige">3kgx2瓶</p>
+                    <p class="yuexiao">月销22.1万件</p>
+                    <h4><span>￥</span><span class="jiage">59.9</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2VD85lkfb_uJjSsrbXXb6bVXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>雀巢巧克力威化</h5>
+                    <p class="guige">640gx1盒</p>
+                    <p class="yuexiao">月销3.4万件</p>
+                    <h4><span>￥</span><span class="jiage">27.8</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2o6YyoOOYBuNjSsD4XXbSkFXa_!!725677994-0-sm.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>蒙牛纯甄酸牛奶</h5>
+                    <p class="guige">200gx24盒</p>
+                    <p class="yuexiao">月销32.5万件</p>
+                    <h4><span>￥</span><span class="jiage">99</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2ZldVbbSYBuNjSspfXXcZCpXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>农夫山泉天然水</h5>
+                    <p class="guige">5Lx4桶</p>
+                    <p class="yuexiao">月销7万件</p>
+                    <h4><span>￥</span><span class="jiage">34.9</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2VqU.thSYBuNjSsphXXbGvVXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>金龙鱼盘锦大米</h5>
+                    <p class="guige">5kgx1袋</p>
+                    <p class="yuexiao">月销10.3万件</p>
+                    <h4><span>￥</span><span class="jiage">29.9</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2wXIpkFuWBuNjSszbXXcS7FXa_!!725677994.png_240x5000Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>蒙牛真果粒牛奶</h5>
+                    <p class="guige">250gx24盒</p>
+                    <p class="yuexiao">月销23.9万件</p>
+                    <h4><span>￥</span><span class="jiage">69.9</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2aVSBr21TBuNjy0FjXXajyXXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>港荣奶香蒸蛋糕</h5>
+                    <p class="guige">1kgx1箱</p>
+                    <p class="yuexiao">月销17.4万件</p>
+                    <h4><span>￥</span><span class="jiage">38.9</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <ul class="fenlei">
+                        <li>塑包抽纸</li>
+                        <li>盒装抽纸</li>
+                        <li>糕点</li>
+                        <li>常温奶</li>
+                    </ul>
+                </li>
+                <li id="chang">
+                    <img src="img/TB13uM8yntYBeNjy1XdXXXXyVXa-372-568.jpg_430x430Q90s50.jpg_.webp" alt="">
+                </li>
+                <li>
+                    <img src="img/TB2m1Lxn0nJ8KJjSszdXXaxuFXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>正宗友臣肉松饼</h5>
+                    <p class="guige">1.25kgx1箱</p>
+                    <p class="yuexiao">月销7.1万件</p>
+                    <h4><span>￥</span><span class="jiage">41.8</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2q0e6kL9TBuNjy0FcXXbeiFXa_!!725677994.png_240x5000Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>安佳全脂纯牛奶</h5>
+                    <p class="guige">250mlx24盒</p>
+                    <p class="yuexiao">月销7.7万件</p>
+                    <h4><span>￥</span><span class="jiage">89</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB1ZplVrSBYBeNjy0FeXXbnmFXa_!!0-item_pic.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>子初婴儿手口湿巾</h5>
+                    <p class="guige">90抽x10包</p>
+                    <p class="yuexiao">月销3.2万件</p>
+                    <h4><span>￥</span><span class="jiage">68</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2xKNbocjI8KJjSsppXXXbyVXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>伊利金领冠奶粉</h5>
+                    <p class="guige">1.2kgx1盒</p>
+                    <p class="yuexiao">月销1.4万件</p>
+                    <h4><span>￥</span><span class="jiage">54.9</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2IPYcvNSYBuNjSsphXXbGvVXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>百草味肉干礼盒</h5>
+                    <p class="guige">580gx1盒</p>
+                    <p class="yuexiao">月销4.9万件</p>
+                    <h4><span>￥</span><span class="jiage">54.9</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2Unojj8yWBuNkSmFPXXXguVXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>江中猴菇饼干</h5>
+                    <p class="guige">24gx40包</p>
+                    <p class="yuexiao">月销1.4万件</p>
+                    <h4><span>￥</span><span class="jiage">115</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2gy6VXTtYBeNjy1XdXXXXyVXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>苏打汽水原味无糖</h5>
+                    <p class="guige">330mlx24罐</p>
+                    <p class="yuexiao">月销3.9万件</p>
+                    <h4><span>￥</span><span class="jiage">88</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <ul class="fenlei">
+                        <li>饼干</li>
+                        <li>薯片膨化</li>
+                        <li>卷纸筒</li>
+                        <li>膨化食品</li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="img/TB2mHCBXKUXBuNjt_a0XXcysXXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>舒肤佳混合香皂</h5>
+                    <p class="guige">115gx3块</p>
+                    <p class="yuexiao">月销1.3万件</p>
+                    <h4><span>￥</span><span class="jiage">9.9</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2vlyknb5YBuNjSspoXXbeNFXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>卫龙辣条小面筋</h5>
+                    <p class="guige">280gx1包</p>
+                    <p class="yuexiao">月销7.4万件</p>
+                    <h4><span>￥</span><span class="jiage">9.9</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <img src="img/TB2F_3us7OWBuNjSsppXXXPgpXa_!!725677994.jpg_250x250Q50s50.jpg_.webp" class="m1" alt="">
+                    <h5>三只松鼠猪肉脯</h5>
+                    <p class="guige">310gx一袋</p>
+                    <p class="yuexiao">月销14.4万件</p>
+                    <h4><span>￥</span><span class="jiage">16.9</span></h4>
+                    <i class="fa fa-shopping-cart"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="gao"></div>
+    </div>
+    <div class="gao"></div>
+    <div class="nav-bottom">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fa fa-home"></i>
+                    <p>首页</p>
+                </a>
+            </li>
+            <li>
+                <i class="fa fa-buysellads"></i>
+                <p>翻牌</p>
+            </li>
+            <li>
+                <i class="fa fa-github-alt"></i>
+                <p>品牌特惠</p>
+            </li>
+            <li>
+                <a href="fenlei.html">
+                    <i class="fa fa-list-ul"></i>
+                    <p>分类</p>
+                </a>
+            </li>
+            <li>
+                <a href="denglu.html">
+                    <i class="fa fa-user-o"></i>
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="js/gouwuche.js"></script>
+</body>
+</html>

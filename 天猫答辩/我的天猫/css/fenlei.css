@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left,.right{
+    float: left;
+}
+.inner{
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+.inner-top{
+    height: 9%;
+    line-height: 50px;
+    background-color: #eeeeee;
+    font-size: 14px;
+    padding-left: 20px;
+    border-bottom: #e3e3e4 solid 1px;
+}
+.benlei{
+    margin-top: 1px;
+    width: 25%;
+    position: fixed;
+    top: 9%;
+}
+.benlei div{
+    color: #000;
+    line-height: 55px;
+    padding: 0 10px;
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom: #e3e3e4 solid 1px;
+}
+.left li{
+    color: #9b9b9b;
+    line-height: 55px;
+    font-size: 14px;
+    padding: 0 10px;
+    background-color: #eeeeee;
+    border-bottom: #e3e3e4 solid 1px;
+}
+.inner-bottom{
+    height: 100%;
+}
+.main{
+    height: 100%;
+}
+.left,.right{
+    overflow: scroll;
+    height: 91%;
+}
+.left{
+    width: 25%;
+}
+.right{
+    width: 75%;
+}
+.remen li div,.shengxian li div{
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin: 15px 0;
+}
+.yin{
+    display: none;
+}
+.xian{
+    display: block;
+}
+.suoyou img{
+    width: 70%;
+    margin: 0 auto;
+}
+.suoyou p{
+    font-size: 10px;
+}
+.suoyou h5{
+    color: #9b9b9b;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+/*底部导航*/
+.nav-bottom{
+    color: #000;
+    position: fixed;
+    bottom: 0px;
+    z-index: 3;
+    width: 100%;
+    background-color: white;
+    border-top: 1px #f8f8f8 solid;
+    padding-top: 10px;
+}
+.nav-bottom li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-bottom li{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.nav-bottom li p{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.nav-bottom li i{
+    font-size: 25px;
+    padding-bottom: 6px;
+}
+.gao{
+    height: 62px;
+    width: 100%;
+}
+/*去滚动条*/
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: #f0f0f0;
+}
+/*inner-top*/
+.inner-top p{
+    line-height: 45px;
+    text-align: center;
+    background-color: #f7f7f8;
+    border-bottom: 1px #e0e0e1 solid;
+}
+/*inner-main*/
+.input{
+    margin-top: 15px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.input span{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.input input{
+    border: none;
+    outline: none;
+    float: right;
+    margin-right: 40px;
+    margin-top: 12px;
+    width: 200px;
+}
+.inp1{
+    border-bottom: 1px #f4f4f4 solid;
+    line-height: 40px;
+}
+.inp2{
+    line-height: 40px;
+}
+button{
+    background-color: #ff0036;
+    color: white;
+    border: none;
+    outline: none;
+    width: 90%;
+    margin: 0 5%;
+    line-height: 45px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.left,.content,.right{
+    float: left;
+    font-size: 10px;
+    text-align: center;
+    color: #ff0036;
+    margin-top: 20px;
+}
+.left{
+    width: 20%;
+}
+.content{
+    width: 60%;
+    padding-top: 50px;
+}
+.right{
+    width: 20%;
+}
+.btn{
+    border: 1px #ff0036 solid;
+    width: 60%;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0 auto;
+}
+/*底部导航*/
+.nav-bottom{
+    color: #000;
+    position: fixed;
+    bottom: 0px;
+    z-index: 3;
+    width: 100%;
+    background-color: white;
+    border-top: 1px #f8f8f8 solid;
+    padding-top: 10px;
+}
+.nav-bottom li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-bottom li{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.nav-bottom li p{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.nav-bottom li i{
+    font-size: 25px;
+    padding-bottom: 6px;
+}
