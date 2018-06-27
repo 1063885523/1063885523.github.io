@@ -13,6 +13,34 @@ li{
 body{
     position: relative;
 }
+/*弹出广告*/
+.tanchu{
+    position: fixed;
+    width: 100%;
+    z-index: 7;
+    height: 100%;
+    background-color: rgba(4, 4, 4, 0.49);
+}
+.tanchu h2{
+    position: absolute;
+    z-index: 7;
+    color: #83c6ff;
+    top: 47%;
+    left: 30px;
+    font-family: 迷你简雪峰;
+    transform: rotateZ(-14deg);
+}
+.tanchu p{
+    position: absolute;
+    color: white;
+    top: 30%;
+    right: 20px;
+}
+.tanchu img{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
 /*inner*/
 .inner-red{
     background-color: #e33355;

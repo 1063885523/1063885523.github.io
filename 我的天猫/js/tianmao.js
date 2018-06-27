@@ -260,3 +260,18 @@ function countTime() {
     setTimeout(countTime, 1000);
 }
 countTime();
+//弹窗广告
+var tanchu=document.querySelector(".tanchu");
+var miao=document.querySelector(".tanchu p span");
+var miaoshu=5;
+setInterval(function(){
+    miaoshu--;
+    miao.innerHTML=miaoshu;
+    if(miaoshu==-1){
+        tanchu.style.display="none";
+    }
+},1000);
+var p=document.querySelector(".tanchu p");
+p.onclick=function(){
+    tanchu.style.display="none";
+}
